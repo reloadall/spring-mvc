@@ -24,4 +24,5 @@ public interface CountryRepository extends CrudRepository<Country, Integer> {
     Country findByCodeName(String codeName);
 
     Country findByName(String name);
+
 }
